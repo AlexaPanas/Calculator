@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class View {
 
-     Scanner scanner = new Scanner(System.in);
+     private static final Scanner scanner = new Scanner(System.in);
 
     private String getStr(String str){
         System.out.println(str);
